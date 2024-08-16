@@ -1,0 +1,29 @@
+GET http://localhost:3000/books
+
+
+###
+
+GET http://localhost:3000/books/2
+
+###
+POST http://localhost:3000/books
+Content-Type: application/json
+
+    {
+    
+      "name": "Wiggeta 2",
+      "author": "Willyrex y vegetta777",
+      "year": 2023
+    }
+
+###
+
+PUT http://localhost:3000/books/3
+Content-Type: application/json
+
+    {
+    
+    
+      "year": 2025
+    }
+content
